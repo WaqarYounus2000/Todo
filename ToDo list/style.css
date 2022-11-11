@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(30, 31, 31);
+}
+
+
+
+.center {
+    display: flex;
+    top: 25px;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 65px;
+    /* border: 2px solid red; */
+    
+    
+
+}
+
+.inputandbutton {
+    display: flex;
+    /* border: 2px solid blue; */
+    
+}
+
+.unorderlistclass {
+    /* border: 2px solid green; */
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-bottom: 1px;
+}
+
+.unorderlistclass>li:hover {
+    cursor: pointer;
+}
+
+.invalid-feedback{
+    display: none;
+    height: 12px;
+    width: 190px;
+    color: white;
+    /* border: 2px solid red; */
+    /* border: 2px solid red; */
+   
+    /* position: relative; */
+    /* top: 30px;
+    right: 461px; */
+    
+}
+.invalidfeedbackHeading{
+    margin: 0;
+    position: absolute;
+}
+
+.unorderlistclass>li {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    list-style: decimal;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.inputfieldclass {
+    border: none;
+    outline: none;
+    height: 25px;
+}
+.inputfieldclass::placeholder{
+    font-size: 8px;
+    opacity: 0.4;
+}
+/* .inputfieldclass[type="text"]::placeholder{
+    opacity: 1;
+    color: red;
+} */
+.buttonclass {
+    border: none;
+    outline: none;
+    background-color: rgb(241, 147, 7);
+    width: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttonsubmit{
+    width: 19px;
+    vertical-align: middle;
+    background-color: transparent !important;
+    
+    
+    
+}
+.buttonclass:hover{
+    cursor: pointer;
+}
+
+.delbutton {
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    opacity: 0.5;
+    background-color: transparent;
+    /* background-image: url("./trashicons/trash.png"); */
+    width: 25px;
+    height: 27px;
+    padding: 0;
+    background-image: url(./trashicons/trash.png);
+    background-size: 15px ;
+    background-repeat: no-repeat;
+    
+    /* border: 1px solid red; */
+    
+    
+}
+
+
+
+
+
+.delbutton:hover {
+    cursor: pointer;
+    background-image: url(./trashicons/trashgif.gif);
+    /* color: red; */
+    opacity: 1;
+}
+
+.footerclass {
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin: 0;
+    
+    
+    
+}
+.editbutton{
+    /* color: red; */
+    font-size: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    opacity: 0.5;
+    background-color: transparent;
+    position: absolute;
+    right: 40px;
+    top: 2px;
+    vertical-align: middle;
+    background-image: url(./editicons/pencilnormal.png);
+    background-size: 15px ;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    
+    
+}
+/* .editbutton::after{
+    content: "E";
+} */
+
+.editbutton:hover {
+    cursor: pointer;
+    background-image: url(./editicons/pencilgif.gif);
+    /* color: red; */
+    opacity: 1;
+}
+
+.updatebutton{
+    /* height: 45px; */
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 27px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(241, 147, 7);
+    position: relative;
+    outline: none;
+    /* vertical-align: middle; */
+}
+
+
+.updateimageclass{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./updateicon/icons8-update-48.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+   
+    /* border: 2px solid red; */
+    height: 20px;
+    width: 27px;
+    margin: 0;
+    padding: 0;
+}

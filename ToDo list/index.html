@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="center">
+
+        <div id="inputandbuttonID" class="inputandbutton">
+            <input type="text" id="inputfielsID" placeholder="What you have planned?" class="inputfieldclass" required>
+            <button onclick="AddingFuntion()" class="buttonclass" id="buttonID"><img id="buttonsubmitID" class="buttonsubmit" src="./submitsicons/submit.png" alt=""></button>
+            <!-- <button onclick="updateFuntion()" class="buttonclass" id="updatebuttonID">UP</button> -->
+            
+        </div>
+        
+        <div class="invalid-feedback" id="invalidfeedbackID">
+            <h6 class="invalidfeedbackHeading">User Input Is Required.</h6>
+        </div>
+        
+        <ol class="unorderlistclass" id="unorderlistID">
+           
+        </ol>
+
+        
+        <footer id="footerID" class="footerclass">
+
+            <h5 id="task"></h5>
+            <h5 id="completed">Completed:</h5>
+
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
